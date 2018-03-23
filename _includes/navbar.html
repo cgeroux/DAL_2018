@@ -24,6 +24,13 @@
       <a href="{{ site.lc_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ page.root }}/assets/img/lc-icon-black.png" alt="Library Carpentry logo" />
       </a>
+      {% elsif page.carpentry == "ancc" %}
+      <a href="{{ site.an_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ page.root }}/assets/img/an-logo.svg" alt="ACENET logo" />
+      </a>
+      <a href="{{ site.cc_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ page.root }}/assets/img/cc-logo.svg" alt="ComputeCanada logo" />
+      </a>
       {% endif %}
 
       {% comment %} Always show link to home page. {% endcomment %}
