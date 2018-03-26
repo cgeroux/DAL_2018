@@ -1,18 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc" or "ancc") ancc=Acenet+ComputeCanada
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+carpentry: "ancc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc" or "ancc") ancc=Acenet+ComputeCanada
+venue: "CBU"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "TBD"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "Canada"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "TBD"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "May 1-2, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-05-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-05-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Chris Geroux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Lee Wilson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["chris.geroux@ace-net.ca","lee.wilson@ace-net.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -46,10 +46,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+{% comment %}
 <h4>This is the workshop template. Delete these lines and use it to customize your own website.
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
+{% endcomment %}
 
 <h2 id="general">General Information</h2>
 
@@ -59,13 +61,13 @@ and our administrator may contact you if we need any extra information.</h4>
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/intro.html %}
-{% endif %}
+
+<p>
+This two day workshop will start with a quick overview of advanced research computing and how it can be leveraged by researchers in the humanities and social sciences. <b>TODO:</b> add something about Lee's RDM here.
+</p>
+<p>
+One new aspect of advanced research computing is of particular interest to the humanities and social sciences, cloud computing. This course begins by introducing cloud computing as a concept and the role it can play in your research, whether you need a persistently available computing environment for a web service, or more computing power than your laptop can offer for Big Data problems and anything in between. The first project we will cover is setting up a standard HTML based website in order to introduce all the basics of working in a cloud computing environment. We will then walk through using the command line and how it can be used to configure your cloud computing environment for your specific research projects. Mediawiki, Omeka, Joomla, Drupal, and WordPress are popular content management systems (CMS) that have almost identical deployment methods and so while we will choose one of these to introduce security topics such as data encryption and password management it will be representative of all these deployments.
+</p>
 
 {% comment %}
   AUDIENCE
@@ -73,13 +75,14 @@ and our administrator may contact you if we need any extra information.</h4>
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
+<p id="who">
+  <strong>Who:</strong>
+  The course is aimed at graduate students and other researchers at Cape Breton University.
+  <strong>
+    You don't need to have any previous knowledge of the tools
+    that will be presented at the workshop.
+  </strong>
+</p>
 
 {% comment %}
   LOCATION
@@ -207,14 +210,33 @@ and our administrator may contact you if we need any extra information.</h4>
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
-
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+  <div class="col-md-6">
+    <h3>Tuesday, May 1<sup>st</sup></h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Is Advanced Computing For Me?</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>11:00</td>  <td>Research Data Management</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a></td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Wednesday, May 2<sup>nd</sup></h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a> cont.</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a> cont.</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td>END</td> </tr>
+    </table>
+  </div>
+</div>
 
 {% comment %}
   Collaborative Notes
@@ -252,14 +274,39 @@ and our administrator may contact you if we need any extra information.</h4>
   'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">Is Advanced Computing For Me?</h3>
+    <ul>
+      <li>Topic 1</li>
+      <li>Topic 2</li>
+      <li>...</li>
+      <li><a href="">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">Research Data Management</h3>
+    <ul>
+      <li>Topic 1</li>
+      <li>Topic 2</li>
+      <li>...</li>
+      <li><a href="">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-python">Cloud Power DH Research</h3>
+    <ul>
+      <li>Introduction to cloud computing</li>
+      <li>Creating a virtual machine</li>
+      <li>Applying updates</li>
+      <li>Creating a web server</li>
+      <li>Creating a Self-Signed SSL Certificate</li>
+      <li>Creating a WordPress site</li>
+      <li>Demo using Heat to create a mediawiki site</li>
+      <li><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Reference...</a></li>
+    </ul>
+  </div>
+</div>
 
 <hr/>
 
@@ -278,15 +325,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in a this workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
@@ -298,14 +337,13 @@ and our administrator may contact you if we need any extra information.</h4>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
-
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    tasks more quickly. We will be using it to connect to our cloud virtual machines.
   </p>
 
   <div class="row">
-    <div class="col-md-4">
+    <!--<div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
@@ -360,6 +398,10 @@ and our administrator may contact you if we need any extra information.</h4>
         </li>
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+    </div>-->
+    <div class="col-md-4">
+      <h4 id="shell-windows">Windows</h4>
+      <a href="https://mobaxterm.mobatek.net/download.html">Download MobaXterm</a>, install, and verify it runs. This <a href="https://www.youtube.com/watch?v=yVI87WyBBfU">youtube</a> video demonstrates downloading and installing MobaXterm and how it is used to connect to a remote machine.
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
@@ -368,10 +410,7 @@ and our administrator may contact you if we need any extra information.</h4>
         need to install anything.  You access Bash from the Terminal
         (found in
         <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open the Terminal.
-        You may want to keep
-        Terminal in your dock for this workshop.
+        You may want to keep Terminal in your dock for this workshop.
       </p>
     </div>
     <div class="col-md-4">
@@ -385,7 +424,21 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+<div id="account">
+  <h3>Compute Canada Cloud Account</h3>
+  <p>While a Compute cloud account isn't essential for this workshop, it will allow you to keep what you have been working on and allow you to have continued access to the cloud environment you worked with in the workshop afterwards. If you are unable to get a Compute Canada cloud account for whatever reason, a guest account in a shared project will be provided to you for the duration of the workshop.
+  </p>
+  <p>
+  Getting an account usually takes a few business days as there are humans involved in the process. Ensuring you have a Compute Canada Cloud account at least a week before the course begins is recommended. There are two steps to getting a CC Cloud account:
+  <ol>
+    <li>Get a Compute Canada account</li>
+    <li>Get a Compute Canada cloud account</li>
+  </ol>
+  To get a Compute Canada account you need to either be a faculty member or a librarian at a recognized academic institution in Canada or have your account sponsored by someone who is. To get a Compute Canada account follow the instructions provided on this [Compute Canada page](https://www.computecanada.ca/research-portal/account-management/apply-for-an-account/). Once you have a CC account, you then apply for a cloud account [here](https://www.computecanada.ca/research-portal/national-services/compute-canada-cloud/create-a-cloud-account/). When applying for your cloud account you will need to provide your CC account user name and an email associated with your CC account.
+  </p>
+  
+</div>
+<!--
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -776,3 +829,4 @@ and our administrator may contact you if we need any extra information.</h4>
   </ol>
 </div>
 {% endcomment %}
+-->
