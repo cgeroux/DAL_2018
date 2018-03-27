@@ -10,8 +10,9 @@ humandate: "May 1-2, 2018"    # human-readable dates for the workshop (e.g., "Fe
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-05-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-05-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Chris Geroux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Lee Wilson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+presenters: ["<a href=\"http://www.ace-net.ca/about-us/team/team-bios/#michelefash\">Michele Fash</a>","<a href=\"http://www.ace-net.ca/about-us/team/team-bios/#leewilson\">Lee Wilson</a>"]
+instructor: ["<a href=\"http://www.ace-net.ca/about-us/team/team-bios/#chrisgeroux\">Chris Geroux</a>"]
+helper: ["<a href=\"http://www.ace-net.ca/about-us/team/team-bios/#leewilson\">Lee Wilson</a>"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["chris.geroux@ace-net.ca","lee.wilson@ace-net.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -66,7 +67,7 @@ and our administrator may contact you if we need any extra information.</h4>
 This two day workshop will start with a quick overview of advanced research computing and how it can be leveraged by researchers in the humanities and social sciences. <b>TODO:</b> add something about Lee's RDM here.
 </p>
 <p>
-One new aspect of advanced research computing is of particular interest to the humanities and social sciences, cloud computing. This course begins by introducing cloud computing as a concept and the role it can play in your research, whether you need a persistently available computing environment for a web service, or more computing power than your laptop can offer for Big Data problems and anything in between. The first project we will cover is setting up a standard HTML based website in order to introduce all the basics of working in a cloud computing environment. We will then walk through using the command line and how it can be used to configure your cloud computing environment for your specific research projects. Mediawiki, Omeka, Joomla, Drupal, and WordPress are popular content management systems (CMS) that have almost identical deployment methods and so while we will choose one of these to introduce security topics such as data encryption and password management it will be representative of all these deployments.
+One new aspect of advanced research computing is of particular interest to the humanities and social sciences, cloud computing. The cloud portion of the workshop begins by introducing cloud computing as a concept and the role it can play in your research, whether you need a persistently available computing environment for a web service, or more computing power than your laptop can offer for Big Data problems and anything in between. The first project we will cover is setting up a standard HTML based website in order to introduce all the basics of working in a cloud computing environment. We will then walk through using the command line and how it can be used to configure your cloud computing environment for your specific research projects. Mediawiki, Omeka, Joomla, Drupal, and WordPress are popular content management systems (CMS) that have almost identical deployment methods and so while we will choose one of these to introduce security topics such as data encryption and software updates it will be representative of all these deployments.
 </p>
 
 {% comment %}
@@ -77,7 +78,7 @@ One new aspect of advanced research computing is of particular interest to the h
 {% endcomment %}
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers at Cape Breton University.
+  The course is aimed at researchers and students in the humanities and social sciences at Cape Breton University.
   <strong>
     You don't need to have any previous knowledge of the tools
     that will be presented at the workshop.
@@ -218,7 +219,7 @@ One new aspect of advanced research computing is of particular interest to the h
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>11:00</td>  <td>Research Data Management</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a></td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Powering DH Research</a></td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:30</td>  <td>END</td> </tr>
@@ -227,10 +228,10 @@ One new aspect of advanced research computing is of particular interest to the h
   <div class="col-md-6">
     <h3>Wednesday, May 2<sup>nd</sup></h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a> cont.</td> </tr>
+      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Powering DH Research</a> cont.</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Power DH Research</a> cont.</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/reference/">Cloud Powering DH Research</a> cont.</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:30</td>  <td>END</td> </tr>
@@ -294,7 +295,7 @@ One new aspect of advanced research computing is of particular interest to the h
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-python">Cloud Power DH Research</h3>
+    <h3 id="syllabus-python">Cloud Powering DH Research</h3>
     <ul>
       <li>Introduction to cloud computing</li>
       <li>Creating a virtual machine</li>
