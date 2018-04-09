@@ -294,15 +294,19 @@ In particular, this workshop will be of interest to those who are working with o
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 <div id="account">
   <h3>Compute Canada Cloud Account</h3>
-  <p>While a Compute cloud account isn't essential for this workshop, it will allow you to keep what you have been working on and allow you to have continued access to the cloud environment you worked with in the workshop afterwards. If you are unable to get a Compute Canada cloud account for whatever reason, a guest account in a shared project will be provided to you for the duration of the workshop.
-  </p>
-  <p>
-  Getting an account usually takes a few business days as there are humans involved in the process. Ensuring you have a Compute Canada Cloud account at least a week before the course begins is recommended. There are two steps to getting a CC Cloud account:
-  <ol>
-    <li>Get a Compute Canada account</li>
-    <li>Get a Compute Canada cloud account</li>
-  </ol>
-  To get a Compute Canada account you need to either be a faculty member or a librarian at a recognized academic institution in Canada or have your account sponsored by someone who is. To get a Compute Canada account follow the instructions provided on this [Compute Canada page](https://www.computecanada.ca/research-portal/account-management/apply-for-an-account/). Once you have a CC account, you then apply for a cloud account [here](https://www.computecanada.ca/research-portal/national-services/compute-canada-cloud/create-a-cloud-account/). When applying for your cloud account you will need to provide your CC account user name and an email associated with your CC account.
-  </p>
+    <p>
+      Having a Compute Canada cloud account will be helpful the workshop and while it isn't essential for the cloud workshop, it will allow you to keep your work and continue to have access to the cloud environment afterwards. If you are unable to get a Compute Canada cloud account for whatever reason, a guest account in a shared project will be provided for you to use for the duration of the workshop.
+    </p>
+    <p>
+      Getting an account usually takes a few business days as there are humans involved in the process. Ensuring you have a Compute Canada Cloud account at least a week before the course begins is recommended. There are two steps to getting a CC Cloud account:
+      <ol>
+        <li>Get a Compute Canada account</li>
+        <li>Get a Compute Canada <b>cloud</b> account</li>
+      </ol>
+      To get a Compute Canada account you need to be either a faculty member or a librarian at a recognized academic institution in Canada or have your account sponsored by someone who is. To get a Compute Canada account follow the instructions provided on this <a href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account/">Compute Canada page</a>. Once you have a CC account, you then apply for a cloud account <a href="https://www.computecanada.ca/research-portal/national-services/compute-canada-cloud/create-a-cloud-account/">here</a>. When applying for your cloud account you will need to provide your CC account user name and an email associated with your CC account.
+    </p>
+    <p>
+      If you have any questions about getting a Compute Canada account or a Compute Canada cloud account please don't hesitate to contact the organizers of the workshop.
+    </p>
 </div>
 
