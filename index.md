@@ -204,10 +204,10 @@ In particular, this workshop will be of interest to those who are working with o
   <div class="col-md-6">
     <h3>Monday, May 14<sup>th</sup></h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/">Cloud Powering DH Research</a></td> </tr>
+      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/Dal-DH-cloud-course/">Cloud Powering DH Research</a></td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/Dal-DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:30</td>  <td>END</td> </tr>
@@ -216,10 +216,10 @@ In particular, this workshop will be of interest to those who are working with o
   <div class="col-md-6">
     <h3>Tuesday, May 15<sup>th</sup></h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
+      <tr> <td>09:00</td>  <td><a href="https://cgeroux.github.io/Dal-DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://cgeroux.github.io/Dal-DH-cloud-course/">Cloud Powering DH Research</a> cont.</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:30</td>  <td>END</td> </tr>
