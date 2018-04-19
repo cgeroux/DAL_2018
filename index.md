@@ -77,7 +77,7 @@ One new aspect of advanced research computing is of particular interest to the h
 {% endcomment %}
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at researchers and students in the humanities and social sciences at Dalhousie University.
+  The course is aimed at researchers and students in the humanities and social sciences at academic institutions in Halifax.
 In particular, this workshop will be of interest to those who are working with or thinking of starting digital humanities projects.
   <strong>
     You don't need to have any previous knowledge of the tools
