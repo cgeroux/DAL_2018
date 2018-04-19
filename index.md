@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "ancc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc" or "ancc") ancc=Acenet+ComputeCanada
 venue: "McCain Building, room 2018, Dalhousie University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "6135 University Ave, Halifax, Nova Scotia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Room 2018, McCain Building, 6135 University Ave, Halifax, Nova Scotia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Canada"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "44.637475,-63.589654"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use)
