@@ -295,7 +295,7 @@ In particular, this workshop will be of interest to those who are working with o
 <div id="account">
   <h3>Compute Canada Cloud Account</h3>
     <p>
-      Having a Compute Canada cloud account will be helpful the workshop and while it isn't essential for the cloud workshop, it will allow you to keep your work and continue to have access to the cloud environment afterwards. If you are unable to get a Compute Canada cloud account for whatever reason, a guest account in a shared project will be provided for you to use for the duration of the workshop.
+      If you expect to continue using the cloud after the workshop having a Compute Canada cloud account will be helpful as it will allow you to keep your work and continue to have access to the cloud environment afterwards. If you are unsure if you will want to use the cloud after the workshop using a guest account in a shared project for the duration of the workshop is recommended. If afterwards you decide you do want to continue to use the cloud, you may then request a Compute Canada cloud account.
     </p>
     <p>
       Getting an account usually takes a few business days as there are humans involved in the process. Ensuring you have a Compute Canada Cloud account at least a week before the course begins is recommended. There are two steps to getting a CC Cloud account:
