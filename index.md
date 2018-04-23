@@ -117,6 +117,10 @@ In particular, this workshop will be of interest to those who are working with o
 </p>
 {% endif %}
 
+<p id="registration">
+  <strong>Registration:</strong> fill in and submit <a href="https://goo.gl/forms/YGPThKosnZouBLOs2">this form</a> to register.
+</p>
+
 {% comment %}
   SPECIAL REQUIREMENTS
 
